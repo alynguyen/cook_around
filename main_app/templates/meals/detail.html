@@ -56,7 +56,7 @@
     </div>
     
     
-    
+    {% if meal.user == user %}
     <div class="card d-flex col-6 col-md-4 shadow">
       <div class="card-body">
         <h1 class="text-center">Chef Tools</h1>
@@ -79,6 +79,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
   </div>
     
 
